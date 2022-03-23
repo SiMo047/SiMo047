@@ -1,0 +1,22 @@
+package Tema2;
+import java.util.Scanner;
+public class Ejercicio18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int num , caja; 
+		Scanner tecla = new Scanner(System.in);
+		
+		
+		     System.out.println("Escribe un numero ");
+		     num = tecla.nextInt();
+			if (num!=0) {
+			
+			caja = num ; 
+			
+		} else  {
+			
+		}
+	}
+
+}

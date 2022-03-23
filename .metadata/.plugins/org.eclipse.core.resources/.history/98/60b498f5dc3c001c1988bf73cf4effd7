@@ -1,0 +1,30 @@
+package Tema2;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+		int opcion = 0 ;
+		Scanner teclado= new Scanner(System.in);		
+		
+		do {
+			System.out.println("1.Sumar");
+			System.out.println("2.Restar");
+			System.out.println("3.Multiplicar");
+			System.out.println("4.Dividir");
+			System.out.println("5.Salir" );
+		
+			try {
+				opcion=teclado.nextInt();
+			} catch (InputMismatchException e) {
+				System.out.println("No has introducido un numero");
+			}
+			
+		
+
+		} while (opcion<6);
+	 }
+
+}

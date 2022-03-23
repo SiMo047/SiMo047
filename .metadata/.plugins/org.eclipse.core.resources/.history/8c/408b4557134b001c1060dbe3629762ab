@@ -1,0 +1,25 @@
+package Tema2;
+
+import java.util.Scanner ; 
+public class Ejercicio26 {
+
+    int numero, invertido = 0, resto;
+    Scanner tecla = new Scanner( System.in ); 
+    
+    numero = tecla.nextInt();
+    
+    System.out.println( "Ejemplo para la inversión de un número" );
+    System.out.println( "Introduce un número: " );
+
+    
+
+    while( numero > 0 ) {
+       resto = numero % 10;
+       invertido = invertido * 10 + resto;
+       numero /= 10;
+    }
+
+    System.out.println( "Número invertido: " + invertido );
+ }
+ 
+}

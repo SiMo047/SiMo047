@@ -1,0 +1,21 @@
+package Tema1;
+
+public class Ejercicio13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int segtotales , conv,horas, min   ;
+		segtotales= 10000; 
+		conv=segtotales/ 60 ;
+		segtotales%=60;
+		horas=conv/60 ; 
+		min= conv%60;
+		
+		
+		
+		
+		System.out.println ("Horas="+horas+" Min="+min+" Seg="+segtotales);
+	
+	}
+
+}

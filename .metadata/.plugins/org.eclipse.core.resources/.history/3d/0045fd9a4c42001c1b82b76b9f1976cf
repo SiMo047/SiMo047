@@ -1,0 +1,33 @@
+package Tema2;
+
+import java.util.Scanner;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner num = new Scanner ( System.in ); 
+
+int  numero  ;
+int resultado; 
+
+System.out.println( "Escribe un numero "); 
+numero = num.nextInt(); 
+
+ resultado = 0 ; 
+
+do {
+	 resultado= numero %2 ; 
+	 resultado= numero %3 ; 
+	 resultado= numero %5 ; 
+	 resultado= numero %7 ; 
+	 
+	 
+	System.out.println(resultado );
+	
+    } while ( (int)resultado==0 )  ;   
+
+    System.out.println(resultado );
+	}
+
+}

@@ -1,0 +1,17 @@
+package Tema2;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int euros = 362; 
+		
+		int b200=0 , b=100 , b50=0 , b20=0 , b10=0 ; 
+		
+		b200= ( int)euros / 200 ; 
+		System.out.print(b200);
+
+	}
+
+}
